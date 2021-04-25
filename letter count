@@ -1,0 +1,5 @@
+str = "mississippi"
+print("i = ",str.count("i"))
+print("s = ",str.count("s"))
+print("p = ",str.count("p"))
+print("m = ",str.count("m"))
