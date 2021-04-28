@@ -1,5 +1,10 @@
-str = "mississippi"
-print("i = ",str.count("i"))
-print("s = ",str.count("s"))
-print("p = ",str.count("p"))
-print("m = ",str.count("m"))
+string = str(input("Enter a string"))
+def most_frequent(string):
+  d = dict()
+  for key in string:
+     if key not in d:
+        d[key] = 1
+     else:
+        d[key] += 1
+  return d
+ print(most_frequent(string))
